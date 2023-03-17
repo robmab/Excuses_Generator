@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(27, 27, 38);
+}
+
+.wrap {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  width: 60%;
+  height: 40vh;
+  overflow: auto;
+  border: 10px double rgb(0, 0, 0);
+
+  display: flex;
+}
+
+.text {
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+  width: 70%;
+}
+.text h1 {
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+button {
+  padding: 20px 20px;
+  font-size: large;
+  background-color: rgb(208, 252, 255);
+
+  border: 2px solid black;
+}
+button:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
