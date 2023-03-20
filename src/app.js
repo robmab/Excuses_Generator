@@ -22,7 +22,10 @@ function genExcuses() {
 }
 
 window.onload = () => {
-  document.querySelector("#bt").addEventListener("click", () => {
-    document.querySelector("#excuse").innerHTML = genExcuses();
-  });
+  document.querySelector("#excuse").innerHTML = genExcuses();
 };
+
+document.querySelector("#bt").addEventListener("click", () => {
+document.querySelector("#excuse").innerHTML = genExcuses();
+});
+
