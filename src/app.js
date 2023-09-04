@@ -10,7 +10,7 @@ function genExcuses() {
     "right in time",
     "when I finished",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   let first = who[Math.floor(Math.random() * who.length)];
@@ -26,6 +26,5 @@ window.onload = () => {
 };
 
 document.querySelector("#bt").addEventListener("click", () => {
-document.querySelector("#excuse").innerHTML = genExcuses();
+  document.querySelector("#excuse").innerHTML = genExcuses();
 });
-
